@@ -6,7 +6,7 @@ import {  IoLogoTwitter, IoLogoDiscord, IoLogoGithub } from 'react-icons/io5'
 
 const TWITTER_HANDLE = 'nenofinance';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const GITHUB_HANDLE = 'nenofinance';
+const GITHUB_HANDLE = 'nenofi';
 const GITHUB_LINK = `https://github.com/${GITHUB_HANDLE}`;
 
 const Header = () => {
