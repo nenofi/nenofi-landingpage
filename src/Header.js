@@ -1,13 +1,15 @@
-import React, { useEffect, useState, useRef } from "react";
+import React from "react";
 import './styles/Header.css';
-import twitterLogo from './assets/twitter-logo.svg';
-import { ethers } from "ethers";
-import {  IoLogoTwitter, IoLogoDiscord, IoLogoGithub } from 'react-icons/io5'
+// import { ethers } from "ethers";
+import {  IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
+import { SiGitbook } from "react-icons/si";
+
 
 const TWITTER_HANDLE = 'nenofinance';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const GITHUB_HANDLE = 'nenofi';
 const GITHUB_LINK = `https://github.com/${GITHUB_HANDLE}`;
+const GITBOOK_LINK = 'https://nenofi.gitbook.io/nenofi/';
 
 const Header = () => {
   /*
@@ -32,12 +34,12 @@ const Header = () => {
             target="_blank"
             rel="noreferrer"
           ><IoLogoTwitter/></a> &nbsp;&nbsp;
-          {/* <a
+          <a
             className="footer-text"
-            href={TWITTER_LINK}
+            href={GITBOOK_LINK}
             target="_blank"
             rel="noreferrer"
-          ><IoLogoDiscord/></a> &nbsp;&nbsp; */}
+          ><SiGitbook/></a> &nbsp;&nbsp;
           <a
             className="footer-text"
             href={GITHUB_LINK}
